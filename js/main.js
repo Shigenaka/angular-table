@@ -10,5 +10,6 @@ sortApp.controller('mainController', function($scope, $http) {
 
 		// Set $scope.data equal to the data returned in your results
         $scope.data = response.data;
+        console.log($scope.data);
     });
 });
